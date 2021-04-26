@@ -1,0 +1,26 @@
+From 223f35c7e102c919eb8683c00ff70f7e2b4cd408 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?No=C3=B4men=20Ben=20Hassin?= <bnhassin@gmail.com>
+Date: Mon, 26 Apr 2021 00:35:35 +0000
+Subject: [PATCH] built created online with Bitbucket
+
+---
+ pipeatlassian/built | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ create mode 100644 pipeatlassian/built
+
+diff --git a/pipeatlassian/built b/pipeatlassian/built
+new file mode 100644
+index 0000000..fc84a7e
+--- /dev/null
++++ b/pipeatlassian/built
+@@ -0,0 +1,7 @@
++- pipe: atlassian/heroku-deploy:1.2.1
++  variables:
++    HEROKU_API_KEY: '<bf328448-5a90-4e0d-ac3f-ca3035d5682c>'
++    HEROKU_APP_NAME: '<pipeatlassian>'
++    ZIP_FILE: '<string>'
++    # WAIT: '<boolean>' # Optional.
++    # DEBUG: '<boolean>' # Optional
+\ No newline at end of file
+-- 
+2.10.5
