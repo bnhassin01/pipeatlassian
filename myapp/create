@@ -1,2 +1,2 @@
-git branch <master>
-git checkout <master>
+git branch_master
+git checkout_master
