@@ -1,1 +1,4 @@
-$ heroku auth:token
+$ heroku login
+$ cd myapp/
+$ git init
+$ heroku git:remote -a pipeatlassian
