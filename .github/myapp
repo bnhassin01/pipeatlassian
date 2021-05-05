@@ -4,7 +4,7 @@ Initialized empty Git repository in .git/
 git add .
 git commit -m "My first commit"
 Created initial commit 47471c3: My first commit
- 3 files changed, 8393 insertions(+), 0 deletions(-)
+ 3 files changed, 26 insertions(+), 0 deletions(-)
  create mode 100644 README
  create mode 100644 Procfile
  create mode 100644 app/controllers/source_file
