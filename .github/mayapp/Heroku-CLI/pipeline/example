@@ -1,0 +1,5 @@
+heroku pipelines:create -a pipeatlapp
+? Pipeline name: pipeline
+? Stage of pipeatlassian: production
+Creating example-pipeline pipeline... done
+Adding example-app to example-pipeline pipeline as production... done
