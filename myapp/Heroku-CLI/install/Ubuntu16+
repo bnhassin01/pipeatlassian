@@ -1,1 +1,2 @@
+# apt-get install git
 sudo snap install --classic heroku
