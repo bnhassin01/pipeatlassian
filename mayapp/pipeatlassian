@@ -1,0 +1,57 @@
+git push heroku main
+Enumerating objects: 708, done.
+Counting objects: 100% (708/708), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (311/311), done.
+Writing objects: 100% (708/708), 128.11 KiB | 64.05 MiB/s, done.
+Total 708 (delta 352), reused 708 (delta 352), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Building on the Heroku-22 stack
+remote: -----> Determining which buildpack to use for this app
+remote: -----> Python app detected
+remote: -----> Using Python version specified in runtime.txt
+remote: -----> Installing python-3.10.7
+remote: -----> Installing pip 22.1.2, setuptools 60.10.0 and wheel 0.37.1
+remote: -----> Installing SQLite3
+remote: -----> Installing requirements with pip
+remote:        Collecting django<5.0,>=4.0
+remote:          Downloading Django-4.1-py3-none-any.whl (8.1 MB)
+remote:        Collecting gunicorn<21.0,>=20.0
+remote:          Downloading gunicorn-20.1.0-py3-none-any.whl (79 kB)
+remote:        Collecting dj-database-url<2.0,>=1.0
+remote:          Downloading dj_database_url-1.0.0-py3-none-any.whl (6.6 kB)
+remote:        Collecting whitenoise<7.0,>=6.0
+remote:          Downloading whitenoise-6.2.0-py3-none-any.whl (19 kB)
+remote:        Collecting psycopg2<3.0,>=2.0
+remote:          Downloading psycopg2-2.9.3.tar.gz (380 kB)
+remote:          Preparing metadata (setup.py): started
+remote:          Preparing metadata (setup.py): finished with status 'done'
+remote:        Collecting sqlparse>=0.2.2
+remote:          Downloading sqlparse-0.4.2-py3-none-any.whl (42 kB)
+remote:        Collecting asgiref<4,>=3.5.2
+remote:          Downloading asgiref-3.5.2-py3-none-any.whl (22 kB)
+remote:        Building wheels for collected packages: psycopg2
+remote:          Building wheel for psycopg2 (setup.py): started
+remote:          Building wheel for psycopg2 (setup.py): finished with status 'done'
+remote:          Created wheel for psycopg2: filename=psycopg2-2.9.3-cp310-cp310-linux_x86_64.whl size=159240 sha256=3399f4acef86b87602002c03ed36cdabaf0a70abc8fa3f412196a8a3d34715c0
+remote:          Stored in directory: /tmp/pip-ephem-wheel-cache-7q6yuegd/wheels/81/b6/3d/091aad3e8919ea76c84c2674b02ce3ab52de882e091c39249e
+remote:        Successfully built psycopg2
+remote:        Installing collected packages: whitenoise, sqlparse, psycopg2, gunicorn, asgiref, django, dj-database-url
+remote:        Successfully installed asgiref-3.5.2 dj-database-url-1.0.0 django-4.1 gunicorn-20.1.0 psycopg2-2.9.3 sqlparse-0.4.2 whitenoise-6.2.0
+remote: -----> $ python manage.py collectstatic --noinput
+remote:        131 static files copied to '/tmp/build_b1795ac0/staticfiles', 385 post-processed.
+remote:
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 29.3M
+remote: -----> Launching...
+remote:        Released v5
+remote:        https://serene-caverns-82714.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/serene-caverns-82714.git
+ * [new branch]      main -> main
