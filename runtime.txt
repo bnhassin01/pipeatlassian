@@ -1,0 +1,2 @@
+git clone https://github.com/bnhassin01/pipeatlassian.git
+cd pipeatlassian
